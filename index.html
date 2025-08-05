@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&family=Playwrite+PL:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- animate style-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- nav bar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="images/OIP.jpeg" alt="">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home">Home</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skill">Skills</a></li>
+                <li class="list-items"><a class="links" href="#contact">Contacts</a></li>
+
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__fadeInDown" id="username">I'm Diya <span id="lname">Krishna</span>
+                </h1>
+                <p id="user details">This is my official portfolio website to showcase my journey <br>and work in
+                    photography</p>
+                <a id="download" href="images/BHAGYALEKSHMI_PJ_RESUME.pdf" download="">VIEW BROCHURE</a>
+            </div>
+            <div class="home-img">
+
+                <!-- shape -->
+                <img class="group1" id="shape" src="images/bg.png" alt="shape">
+                <!-- girl -->
+                <img class="group1" id="girl" src="./images/ladyy.png" alt="girl">
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">About me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="AboutBody">
+                <div data-aos="fade-right" class="AboutImg">
+                    <img class="img1" src="./images/free-images.jpg" alt="">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, optio. Exercitationem,
+                        recusandae
+                        nemo error facilis dicta quos! Perspiciatis veritatis incidunt quia qui officiis. Reprehenderit,
+                        nobis deserunt. Exercitationem atque saepe architecto.</p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Diya krishna</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9922334455</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>diya@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- skills -->
+        <section id="skill">
+            <div class="sectionhead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subhead">My skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressbars">
+                    <!-- portrait div -->
+                    <div class="bars">
+                        <h3 class="barHead">portrait</h3>
+                        <span class="barPercent">93%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar portBar" data-aos="fade-up-right"></div>
+                    </div>
+                    <!-- landscape bar -->
+                    <div class="bars">
+                        <h3 class="barHead">Landscape</h3>
+                        <span class="barPercent">81%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar landBar" data-aos="fade-up-right"></div>
+                    </div>
+                    <!-- editing -->
+                    <div class="bars">
+                        <h3 class="barHead">Editing</h3>
+                        <span class="barPercent">95%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar editBar" data-aos="fade-up-right"></div>
+                    </div>
+                    <!-- wildlife -->
+                    <div class="bars">
+                        <h3 class="barHead">wildlife</h3>
+                        <span class="barPercent">80%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar wildBar" data-aos="fade-up-right"></div>
+                    </div>
+                </div>
+                <div class="skillimage">
+                    <img class="myskill" src="./images/skills.jpeg" alt="skills">
+                </div>
+            </div>
+        </section>
+        <!-- contacts -->
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 class="mainhead">Contacts</h2>
+                <span class="subhead">My Contacts</span>
+            </div>
+            <div class="iconCollection">
+                <div class="icon">
+                    <!-- linkedin -->
+                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in brands"></i></a>
+                </div>
+                <div class="icon">
+                    <!-- github-->
+                    <a href="#" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <div class="icon">
+                    <!-- instagram -->
+                    <a href="#" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <div class="icon">
+                    <!-- threads -->
+                    <a href="#" target="_blank"><i class="fa-brands fa-threads brands"></i></a>
+                </div>
+                <div class="icon">
+                    <!-- twitter -->
+                    <a href="#" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <div class="icon">
+                    <!-- phone -->
+                    <a href="#" target="_blank"><i class="fa-solid fa-phone brands"></i></a>
+                </div>
+
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyright">&copy;Diya Krishna portfolio-July 2025,&reg;All rights reserved</p>
+            <div class="icon upArrow">
+                <a href=""><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </footer>
+    </div>
+    <!-- aos animation script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
